@@ -15,7 +15,7 @@ var Loop = require('game-loop'),
 	loop = new Loop();
 
 loop.use(function () {
-	console.log('Frame ' this.frame);
+	console.log('Frame ' + this.frame);
 });
 
 loop.use(function () {
@@ -40,4 +40,5 @@ loop.stop()
 ### Properties
 
 * `frame` - Current frame number
-* `lastUpdate` - Timestamp registered after completing the last iteration
+* `lastUpdate` - Timestamp registered after completing last iteration
+* `fps` - Last calculated framerate
