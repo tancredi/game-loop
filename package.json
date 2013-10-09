@@ -1,0 +1,17 @@
+{
+  "name": "game-loop",
+  "version": "0.0.0",
+  "description": "Simple gameloop utility class, mainly written for browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "loop",
+    "requestAnimationFrame",
+    "browserify"
+  ],
+  "author": "Tancredi Trugenberger",
+  "license": "BSD-2-Clause"
+}
