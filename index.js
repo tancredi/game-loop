@@ -22,17 +22,17 @@ Loop.prototype.use = function (callback) {
 };
 
 Loop.prototype.next = function () {
-  var self = this;
-
-  this.getFPS();
-
-  for (var i = 0; i < this.callbacks.length; i += 1) {
-    this.callbacks[i]();
-  }
-
-  this.frame+= 1;
-
   if (this.playing) {
+    var self = this;
+
+    this.getFPS();
+
+    for (var i = 0; i < this.callbacks.length; i += 1) {
+      this.callbacks[i]();
+    }
+
+    this.frame+= 1;
+
     requestAnimFrame(function () {
       self.next();
     });

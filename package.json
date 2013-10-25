@@ -1,6 +1,6 @@
 {
   "name": "game-loop",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple gameloop utility class to use with browserify",
   "main": "index.js",
   "scripts": {
