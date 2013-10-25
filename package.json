@@ -12,6 +12,10 @@
     "requestAnimationFrame",
     "browserify"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tancredi/game-loop.git"
+  },
   "author": "Tancredi Trugenberger",
   "license": "BSD-2-Clause"
 }
